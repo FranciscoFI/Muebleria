@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sillas",
+    "name": "Sillas",
+    "subcategories": [
+      {
+        "id": "sillas-plasticas",
+        "name": "Sillas Plásticas"
+      },
+      {
+        "id": "sillas-metalicas",
+        "name": "Sillas Metálicas"
+      }
+    ]
+  },
+  {
+    "id": "mesas",
+    "name": "Mesas",
+    "subcategories": [
+      {
+        "id": "mesas-rectangulares",
+        "name": "Rectangulares"
+      },
+      {
+        "id": "mesas-redondas",
+        "name": "Redondas"
+      }
+    ]
+  },
+  {
+    "id": "hieleras",
+    "name": "Hieleras",
+    "subcategories": [
+      {
+        "id": "hieleras-48qt",
+        "name": "48 Qt"
+      },
+      {
+        "id": "hieleras-70qt",
+        "name": "70 Qt"
+      }
+    ]
+  }
+]

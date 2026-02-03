@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías | R&K</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/megamenu.css">
+    <link rel="stylesheet" href="assets/css/grid.css" />
+</head>
+
+<body>
+    <!-- <header id="header"></header> -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                R&K
+            </div>
+            <nav class="navbar" id="main-menu">
+                <!-- Aquí se generará el megamenú -->
+            </nav>
+        </div>
+    </header>
+
+    <section id='category' class="hero">
+        <h1 id="category-title"></h1>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="py-1">
+                <select id="sort" class="custom-select">
+                    <option value="">Ordenar</option>
+                    <option value="asc">Nombre A–Z</option>
+                    <option value="desc">Nombre Z–A</option>
+                </select>
+            </div>
+
+
+            <div id="products" class="grid"></div>
+        </div>
+    </main>
+
+
+    <!-- <footer id="footer"></footer> -->
+    <iframe src="./assets/partials/footer.html"></iframe>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/menu.js"></script>
+
+</body>
+
+</html>

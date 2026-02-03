@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto | R&K</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/product-detail.css">
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/megamenu.css">
+    <link rel="stylesheet" href="assets/css/grid.css" />
+</head>
+
+<body>
+
+    <!-- <header id="header"></header> -->
+    <header class="site-header">
+        <!-- <img src="assets/images/logo/rk-logo.png" class="logo" alt="R&K"> -->
+        <div class="logo">
+            R&K
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <nav class="navbar" id="main-menu">
+            <div class="menu-search">
+                <input
+                    type="text"
+                    id="menu-search-input"
+                    placeholder="Buscar producto..."
+                />
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-page">
+
+        <!-- PRODUCT DETAIL CONTENEDOR -->
+        <div class="product-detail" id="product-detail">
+
+            <!-- GALERÍA -->
+            <div class="product-gallery" id="product-gallery"></div>
+
+            <!-- INFO -->
+            <div class="product-info">
+                <h1 id="product-title"></h1>
+                <p class="price" id="product-price"></p>
+                <div class="product-colors" id="product-colors"></div>
+                <div class="product-specs" id="product-specs"></div>
+
+
+                <p class="description" id="product-description"></p>
+
+                <a id="whatsapp-btn" class="btn whatsapp-btn" target="_blank">
+                    📲 Preguntar por WhatsApp
+                </a>
+            </div>
+
+        </div>
+
+        <!-- RELACIONADOS -->
+        <section class="related-products">
+            <h2>Productos relacionados</h2>
+            <div class="grid" id="related-grid"></div>
+        </section>
+
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="assets/js/product-detail.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>

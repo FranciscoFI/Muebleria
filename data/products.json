@@ -1,0 +1,84 @@
+[
+    {
+        "id": "silla-rk-01",
+        "name": "Silla Plástica Reforzada",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/silla1.jpg"
+        ],
+        "recommended": true
+    },
+    {
+        "id": "silla-rk-02",
+        "name": "aSilla Plástica Reforzada",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/silla1.jpg"
+        ],
+        "recommended": true
+    },
+    {
+        "id": "silla-nina-rk-01",
+        "name": "Silla Plástica Nina",
+        "category": "sillas",
+        "description": "Fabricada con polipropileno 100% virgen. Diseño ergonómico, resistente y disponible en varios colores.",
+        "images": [
+            "assets/images/productos/sillas/nina/nina-cafe.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false
+    },
+    {
+        "id": "mesa-rk-01",
+        "name": "Mesa Plástica Rectangular",
+        "category": "muebles-plastico",
+        "subcategory": "mesas",
+        "description": "Mesa amplia y durable para banquetes.",
+        "images": [
+            "assets/images/productos/mesas/mesa1.jpg"
+        ],
+        "recommended": true
+    }
+]
