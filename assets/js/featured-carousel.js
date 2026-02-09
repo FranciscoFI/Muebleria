@@ -82,7 +82,7 @@ function move(direction) {
 nextBtnNews.addEventListener('click', () => moveNews(-1));
 prevBtnNews.addEventListener('click', () => moveNews(1));
 
-function move(direction) {
+function moveNews(direction) {
     const cardWidth = newsTrack.querySelector('.product').offsetWidth + 16;
     const maxScroll = newsTrack.scrollWidth - newsTrack.parentElement.offsetWidth;
 
