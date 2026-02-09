@@ -89,7 +89,6 @@ fetch('data/products.json')
             <div class="product-info">
                 <h3>${p.name}</h3>
                 <p>${p.description}</p>
-                <a class="btn" href="https://wa.me/5210000000000">Comprar</a>
             </div>`;
             div.onclick = () => location.href = `producto.html?id=${p.id}`;
             relatedGrid.appendChild(div);
