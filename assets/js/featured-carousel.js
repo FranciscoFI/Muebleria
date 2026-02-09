@@ -29,7 +29,7 @@ fetch('data/products.json')
         });
 
 
-        const news = products.filter(p => p.recommended).slice(0, 6);
+        const news = products.filter(p => p.new).slice(0, 6);
         news.forEach(p => {
             const div = document.createElement('div');
             const img = p.images[0] || 'https://via.placeholder.com/400x300';
@@ -75,4 +75,21 @@ function move(direction) {
     position = Math.max(position, -maxScroll);
 
     track.style.transform = `translateX(${position}px)`;
+}
+
+
+/* Movimiento */
+nextBtnNews.addEventListener('click', () => moveNews(-1));
+prevBtnNews.addEventListener('click', () => moveNews(1));
+
+function move(direction) {
+    const cardWidth = newsTrack.querySelector('.product').offsetWidth + 16;
+    const maxScroll = newsTrack.scrollWidth - newsTrack.parentElement.offsetWidth;
+
+    position += direction * cardWidth;
+
+    position = Math.min(0, position);
+    position = Math.max(position, -maxScroll);
+
+    newsTrack.style.transform = `translateX(${position}px)`;
 }
