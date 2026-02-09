@@ -27,19 +27,6 @@ fetch('data/products.json')
             div.onclick = () => location.href = `producto.html?id=${p.id}`;
             track.appendChild(div);
         });
-        featured.forEach(p => {
-            const div = document.createElement('div');
-            const img = p.images[0] || 'https://via.placeholder.com/400x300';
-            div.className = 'product';
-            div.innerHTML = `
-                <img src="${img}">
-                <div class="product-info">
-                    <h3>${p.name}</h3>
-                    <p>${p.description}</p>
-                </div>`;
-            div.onclick = () => location.href = `producto.html?id=${p.id}`;
-            track.appendChild(div);
-        });
 
 
         const news = products.filter(p => p.recommended).slice(0, 6);
