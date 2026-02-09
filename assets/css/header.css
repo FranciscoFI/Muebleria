@@ -16,6 +16,11 @@
     color: var(--primary);
 }
 
+.logo a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 /* nav a {
     margin-left: 18px;
     text-decoration: none;
@@ -52,7 +57,7 @@
 
 .navbar {
     display: flex;
-    gap: 25px;
+    gap: 15px;
     align-items: center;
     font-weight: bold;
 

@@ -8,8 +8,16 @@
         "name": "Sillas Plásticas"
       },
       {
-        "id": "sillas-metalicas",
-        "name": "Sillas Metálicas"
+        "id": "sillas-plegables",
+        "name": "Sillas Plegables"
+      },
+      {
+        "id": "sillas-playeras",
+        "name": "Sillas de Playa"
+      },
+      {
+        "id": "sillas-infantiles",
+        "name": "Sillas Infantiles"
       }
     ]
   },
@@ -18,26 +26,70 @@
     "name": "Mesas",
     "subcategories": [
       {
-        "id": "mesas-rectangulares",
-        "name": "Rectangulares"
+        "id": "mesas-plasticas",
+        "name": "Mesas Plasticas"
       },
       {
-        "id": "mesas-redondas",
-        "name": "Redondas"
+        "id": "mesas-plegables",
+        "name": "Mesas Tipo Tablon"
       }
     ]
   },
   {
-    "id": "hieleras",
-    "name": "Hieleras",
+    "id": "toldos",
+    "name": "Toldos",
+    "subcategories": []
+  },
+  {
+    "id": "tanques",
+    "name": "Tanques de Gas",
+    "subcategories": []
+  },
+  {
+    "id": "hieleras-y-termos",
+    "name": "Hieleras y Termos",
     "subcategories": [
       {
-        "id": "hieleras-48qt",
-        "name": "48 Qt"
+        "id": "hieleras",
+        "name": "Hieleras"
       },
       {
-        "id": "hieleras-70qt",
-        "name": "70 Qt"
+        "id": "termos",
+        "name": "Termos"
+      }
+    ]
+  },
+  {
+    "id": "otros",
+    "name": "Otros",
+    "subcategories": [
+      {
+        "id": "bancos",
+        "name": "Bancos"
+      },
+      {
+        "id": "cestos",
+        "name": "Cestos"
+      },
+      {
+        "id": "ventiladores",
+        "name": "Ventiladores"
+      },
+      {
+        "id": "almacen",
+        "name": "Almacen"
+      },
+      {
+        "id": "caja-de-plastico",
+        "name": "Caja de Plastico"
+      },
+      {
+        "id": "estufas",
+        "name": "Estufas"
+      },
+      {
+        "id": "varios",
+        "name": "Varios"
       }
     ]
   }

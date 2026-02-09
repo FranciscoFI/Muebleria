@@ -2,7 +2,8 @@
    PARAMETROS DE URL
 ================================ */
 const params = new URLSearchParams(location.search);
-const sub = params.get('sub');        // categoría
+const cat = params.get('cat');        // categoría
+const sub = params.get('sub');        // subcategoría
 const search = params.get('search');  // búsqueda global
 
 /* ================================
@@ -45,8 +46,10 @@ fetch('data/products.json')
       allProducts = products.filter(p =>
         p.name.toLowerCase().includes(search.toLowerCase())
       );
+    } else if (cat) {
+      allProducts = products.filter(p => p.category === cat);
     } else if (sub) {
-      allProducts = products.filter(p => p.category === sub);
+      allProducts = products.filter(p => p.subcategory === sub);
     } else {
       allProducts = products;
     }
@@ -78,7 +81,6 @@ function render(list) {
         <div class="product-info">
             <h3>${p.name}</h3>
             <p>${p.description}</p>
-            <a class="btn" href="https://wa.me/5210000000000">Comprar</a>
         </div>`;
     div.onclick = () => location.href = `producto.html?id=${p.id}`;
     grid.appendChild(div);

@@ -1,33 +1,12 @@
 [
     {
-        "id": "silla-rk-01",
-        "name": "Silla Plástica Reforzada",
+        "id": "silla-001",
+        "name": "Silla hipalima",
         "category": "sillas",
         "subcategory": "sillas-plasticas",
         "description": "Silla resistente ideal para eventos y uso rudo.",
         "images": [
-            "assets/images/productos/sillas/silla1.jpg"
-        ],
-        "recommended": true
-    },
-    {
-        "id": "silla-rk-02",
-        "name": "aSilla Plástica Reforzada",
-        "category": "sillas",
-        "subcategory": "sillas-plasticas",
-        "description": "Silla resistente ideal para eventos y uso rudo.",
-        "images": [
-            "assets/images/productos/sillas/silla1.jpg"
-        ],
-        "recommended": true
-    },
-    {
-        "id": "silla-nina-rk-01",
-        "name": "Silla Plástica Nina",
-        "category": "sillas",
-        "description": "Fabricada con polipropileno 100% virgen. Diseño ergonómico, resistente y disponible en varios colores.",
-        "images": [
-            "assets/images/productos/sillas/nina/nina-cafe.jpg"
+            "assets/images/productos/sillas/mueble-001.jpg"
         ],
         "specs": {
             "ancho": 56,
@@ -68,17 +47,3561 @@
                 "hex": "#ef6c00"
             }
         ],
-        "recommended": false
+        "recommended": true,
+        "new": true
+    },
+        {
+        "id": "silla-002",
+        "name": "Silla Cancun",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-002.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
     },
     {
-        "id": "mesa-rk-01",
-        "name": "Mesa Plástica Rectangular",
-        "category": "muebles-plastico",
-        "subcategory": "mesas",
-        "description": "Mesa amplia y durable para banquetes.",
+        "id": "silla-003",
+        "name": "Silla Economica Clasica",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
         "images": [
-            "assets/images/productos/mesas/mesa1.jpg"
+            "assets/images/productos/sillas/mueble-003.jpg"
         ],
-        "recommended": true
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-004",
+        "name": "Silla Clasica Normal",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-004.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-005",
+        "name": "Silla Ale Flip",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-005.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-006",
+        "name": "Sillon Clasico",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-006.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-007",
+        "name": "Silla Venecia Economica",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-007.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-008",
+        "name": "Sillon Fan",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-008.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": true,
+        "new": true
+    },
+    {
+        "id": "silla-009",
+        "name": "Silla Ratan",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-009.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-010",
+        "name": "Sillon Tuxedo",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-010.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-011",
+        "name": "Silla Venecia",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-011.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-012",
+        "name": "Silla Nina",
+        "category": "sillas",
+        "subcategory": "sillas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-012.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-013",
+        "name": "Silla Plegable Fortex",
+        "category": "sillas",
+        "subcategory": "sillas-plegables",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-013.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-014",
+        "name": "Silla Plegable Stronger",
+        "category": "sillas",
+        "subcategory": "sillas-plegables",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-014.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-015",
+        "name": "Silla Plegable Ecol",
+        "category": "sillas",
+        "subcategory": "sillas-plegables",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-015.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-016",
+        "name": "Silla Plegable Ratan",
+        "category": "sillas",
+        "subcategory": "sillas-plegables",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-016.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-017",
+        "name": "Silla Premium",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-017.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-018",
+        "name": "Silla Playera Grande",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-018.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-019",
+        "name": "Silla Playera Jumbo",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-019.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-020",
+        "name": "Silla Playera Chica",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-020.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-021",
+        "name": "Silla Playera Infantil",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-021.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-022",
+        "name": "Silla Playera Extra Grande",
+        "category": "sillas",
+        "subcategory": "sillas-playeras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-022.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-023",
+        "name": "Silla Infantil Flip",
+        "category": "sillas",
+        "subcategory": "sillas-infantiles",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-023.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-024",
+        "name": "Silla Infantil Moñito",
+        "category": "sillas",
+        "subcategory": "sillas-infantiles",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-024.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-025",
+        "name": "Silla Infantil Clasica",
+        "category": "sillas",
+        "subcategory": "sillas-infantiles",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-025.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "silla-026",
+        "name": "Silla Infantil Plegable",
+        "category": "sillas",
+        "subcategory": "sillas-infantiles",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/sillas/mueble-026.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-001",
+        "name": "Banco Colors",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-027.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-002",
+        "name": "Banco cookie chef",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-028.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-003",
+        "name": "Banco Alto Flip",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-029.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-004",
+        "name": "Banco Plegable Chico",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-030.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-005",
+        "name": "Banco Plegable",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-031.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-006",
+        "name": "Taburete Normal",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-033.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "banco-007",
+        "name": "Taburete Chico",
+        "category": "bancos",
+        "subcategory": "bancos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/bancos/mueble-034.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "mesa-001",
+        "name": "Mesa Redonda",
+        "category": "mesas",
+        "subcategory": "mesas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/mesas/mueble-035.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "mesa-002",
+        "name": "Mesa Ratan",
+        "category": "mesas",
+        "subcategory": "mesas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/mesas/mueble-036.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Rojo",
+                "hex": "#c62828"
+            },
+            {
+                "name": "Verde",
+                "hex": "#2e7d32"
+            },
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            },
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            },
+            {
+                "name": "Azul",
+                "hex": "#0288d1"
+            },
+            {
+                "name": "Rosa",
+                "hex": "#ec407a"
+            },
+            {
+                "name": "Morado",
+                "hex": "#7b1fa2"
+            },
+            {
+                "name": "Naranja",
+                "hex": "#ef6c00"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "mesa-003",
+        "name": "Mesa Blanca",
+        "category": "mesas",
+        "subcategory": "mesas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/mesas/mueble-037.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "mesa-004",
+        "name": "Mesa Negra",
+        "category": "mesas",
+        "subcategory": "mesas-plasticas",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/mesas/mueble-038.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "mesa-005",
+        "name": "Mesa Personal",
+        "category": "mesas",
+        "subcategory": "mesas-plegables",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/mesas/mueble-039.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "tanque-001",
+        "name": "Tanque de 9kg",
+        "category": "tanques",
+        "subcategory": "tanques",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/tanques/mueble-040.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "tanque-002",
+        "name": "Tanque de 20kg",
+        "category": "tanques",
+        "subcategory": "tanques",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/tanques/mueble-041.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "tanque-003",
+        "name": "Tanque de 30kg",
+        "category": "tanques",
+        "subcategory": "tanques",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/tanques/mueble-042.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "tanque-004",
+        "name": "Tanque de 2kg",
+        "category": "tanques",
+        "subcategory": "tanques",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/tanques/mueble-043.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-001",
+        "name": "Caja Maria",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-044.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-002",
+        "name": "Caja Maria Sellada",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-045.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-003",
+        "name": "Caja Lerma Calada",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-046.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-004",
+        "name": "Caja Lerma Cerrada",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-047.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-004",
+        "name": "Caja Monterrey Cerrada",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-049.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-005",
+        "name": "Caja Flip Coors",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-050.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-006",
+        "name": "Caja Master",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-051.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "caja-007",
+        "name": "Bote Oslo",
+        "category": "otros",
+        "subcategory": "caja-de-plastico",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/cajas/mueble-052.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-001",
+        "name": "Hielera Mini",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-053.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-002",
+        "name": "Hielera 9/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-054.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-003",
+        "name": "Hielera 28/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-055.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-004",
+        "name": "Hielera 30/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-056.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-005",
+        "name": "Hielera 48/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-057.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-006",
+        "name": "Combo de Hieleras",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-058.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-007",
+        "name": "Hielera 52/4 Coleman",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-059.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-008",
+        "name": "Hielera 60/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-060.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-009",
+        "name": "Hielera 65/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-061.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-010",
+        "name": "Hielera 100/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-062.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-011",
+        "name": "Hielera 120/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-063.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-012",
+        "name": "Hielera 250/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-064.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "hielera-013",
+        "name": "Hielera 16/4",
+        "category": "hieleras-y-termos",
+        "subcategory": "hieleras",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/hieleras/mueble-065.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-001",
+        "name": "Termo de 1 litro",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-066.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-002",
+        "name": "Termo de 2 litros",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-067.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-003",
+        "name": "Termo de 1 Galon",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-068.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-004",
+        "name": "Termo de 2 Galones",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-069.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-005",
+        "name": "Termo de 3 galones",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-070.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-006",
+        "name": "Termo de 5 galones",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-071.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-007",
+        "name": "Termo de 10 galones",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-072.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "termo-008",
+        "name": "Termo de 5 galones",
+        "category": "hieleras-y-termos",
+        "subcategory": "termos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/termos/mueble-073.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-001",
+        "name": "Vitrolero con llave",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-074.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-002",
+        "name": "Vitrolero de 11 litros",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-075.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-003",
+        "name": "Bote lechero",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-076.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-004",
+        "name": "Bote Acapulco",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-077.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-005",
+        "name": "Bote de 80 litros",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-078.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-006",
+        "name": "Bote de 150 litros",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-079.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-007",
+        "name": "Bote de 300 litros",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/botes/mueble-080.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-008",
+        "name": "Cesto Redondo",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-081.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-009",
+        "name": "Cesto cuadrado",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-082.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-010",
+        "name": "Cesto Ratan",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-083.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-011",
+        "name": "Cesto Calado",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-084.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-012",
+        "name": "Cesto Mimbre",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-085.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-014",
+        "name": "Cesto Mimbre Grande",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-086.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-015",
+        "name": "Cesto Margarita Chico",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-087.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-016",
+        "name": "Cesto Margarita Grande",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-088.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-017",
+        "name": "Cesto Balancin",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Chico, Mediano y Grande",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-089.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-018",
+        "name": "Cesto Neli",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-090.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-019",
+        "name": "Bote Balancin Negro",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-091.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-020",
+        "name": "Cubeta Mini",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-092.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-020",
+        "name": "Cubeta de Maceta",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-093.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-021",
+        "name": "Maceta de Plastico #9",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-094.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-022",
+        "name": "Maceton 8",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-095.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-023",
+        "name": "Maceton 14",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Silla resistente ideal para eventos y uso rudo.",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-096.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-024",
+        "name": "Cesta Calada",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Cesta Chica y Grande",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-096.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-025",
+        "name": "Bandeja",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Chica, Mediana y Grande",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-097.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-026",
+        "name": "Palangana Margarita",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "Mediana y Grande",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-098.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-027",
+        "name": "Cubeta con exprimidor",
+        "category": "otros",
+        "subcategory": "cestos",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/cestos/mueble-100.jpg"
+        ],
+        "specs": {
+            "ancho": 56,
+            "altura": 82,
+            "largo": 58
+        },
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-028",
+        "name": "Ventilador Chico",
+        "category": "otros",
+        "subcategory": "ventiladores",
+        "description": "Ventilador Chico",
+        "images": [
+            "assets/images/productos/varios/ventiladores/mueble-099.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-029",
+        "name": "Ventilador Grande",
+        "category": "otros",
+        "subcategory": "ventiladores",
+        "description": "Ventilador Grande",
+        "images": [
+            "assets/images/productos/varios/ventiladores/mueble-136.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-030",
+        "name": "Cajonera Negra de 4",
+        "category": "otros",
+        "subcategory": "almacen",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/almacen/mueble-101.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-031",
+        "name": "Cajonera de Colores",
+        "category": "otros",
+        "subcategory": "almacen",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/almacen/mueble-102.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-032",
+        "name": "Cajonera Cafe",
+        "category": "otros",
+        "subcategory": "almacen",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/almacen/mueble-103.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Café",
+                "hex": "#6d4c41"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-033",
+        "name": "Cajonera Negra de 3",
+        "category": "otros",
+        "subcategory": "almacen",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/almacen/mueble-104.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-034",
+        "name": "Cajonera Negra de 5",
+        "category": "otros",
+        "subcategory": "almacen",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/almacen/mueble-105.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-035",
+        "name": "Estufa de 4 Quemadores",
+        "category": "otros",
+        "subcategory": "estufas",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/estufas/mueble-107.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-036",
+        "name": "Estufa de 2 Quemadores",
+        "category": "otros",
+        "subcategory": "estufas",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/estufas/mueble-108.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Negro",
+                "hex": "#000"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-037",
+        "name": "Base para sombrilla",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-109.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-038",
+        "name": "Sombrillas",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Sombrilla Cuadrada y Sombrilla Redonda",
+        "images": [
+            "assets/images/productos/varios/mueble-110.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-039",
+        "name": "Casa de Campaña para 4 Personas",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-111.jpg"
+        ],
+        "specs": {},
+        "colors": [
+            {
+                "name": "Blanco",
+                "hex": "#fff"
+            }
+        ],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-040",
+        "name": "Porta Garrafon Alto",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-112.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-041",
+        "name": "Porta Garrafon Individual",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-113.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-042",
+        "name": "Porta Garrafon De Gorilla",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-114.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-043",
+        "name": "Atomizador",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-115.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-044",
+        "name": "Catre con Colcha",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-116.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-045",
+        "name": "Cubetas",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Cubetas Chica, Mediana y Grande",
+        "images": [
+            "assets/images/productos/varios/mueble-117.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-046",
+        "name": "Anaquel Chico",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "4 Niveles",
+        "images": [
+            "assets/images/productos/varios/mueble-117-1.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-047",
+        "name": "Anaquel Grande",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "4 Niveles",
+        "images": [
+            "assets/images/productos/varios/mueble-117-2.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-048",
+        "name": "Escalera",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "Escaleras de 2, 3 y 4 peldaños",
+        "images": [
+            "assets/images/productos/varios/mueble-118.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-049",
+        "name": "Charola Jumbo",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-119.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-050",
+        "name": "Lavadero de Plastico",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-120.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-051",
+        "name": "Tina de 80 Litros",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-121.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-052",
+        "name": "Trapeador",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-122.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "varios-053",
+        "name": "Cobertor Matrimonial con Borrega",
+        "category": "otros",
+        "subcategory": "varios",
+        "description": "",
+        "images": [
+            "assets/images/productos/varios/mueble-123.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
     }
 ]

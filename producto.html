@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/megamenu.css">
     <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
 </head>
 
 <body>
     <header class="site-header">
         <div class="header-container">
-        <!-- <img src="assets/images/logo/rk-logo.png" class="logo" alt="R&K"> -->
             <div class="logo">
-                R&K
+                <a href="/">R&K</a>
             </div>
             <button class="menu-toggle" id="menu-toggle">☰</button>
             <nav class="navbar" id="main-menu">
@@ -50,6 +50,8 @@
                 <a id="whatsapp-btn" class="btn whatsapp-btn" target="_blank">
                     📲 Preguntar por WhatsApp
                 </a>
+                <p class="badge" >Los precios están sujetos a cambio de acuerdo al volumen de compra (mayoreo o menudeo).</p>
+
             </div>
 
         </div>
@@ -62,10 +64,54 @@
 
     </main>
 
-    <footer id="footer"></footer>
+    <section class="map-section">
+        <a href="https://www.google.com/maps/search/?api=1&query=R%26K+Distribuidor+de+Mueblería+de+Plástico"
+            target="_blank" rel="noopener" class="map-link">
+            <iframe
+                src="https://www.google.com/maps?q=R%26K%20Distribuidor%20de%20Mueblería%20de%20Plástico&output=embed"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </a>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
 
+            <!-- BRAND -->
+            <div class="footer-col">
+                <h3>R&amp;K Mueblería</h3>
+                <p>Distribuidor de mueblería de plástico para hogar, eventos y negocios.</p>
+            </div>
+
+            <!-- CONTACTO -->
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📞 WhatsApp: 311 000 0000</p>
+                <p>📍 Tepic, Nayarit</p>
+
+                <!-- SOCIAL -->
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/TUPAGINA" target="_blank" aria-label="Facebook"
+                        class="social facebook">
+                        <!-- SVG Facebook -->
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path
+                                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.13 8.44 9.88v-6.99H7.9v-2.89h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.89h-2.34v6.99C18.34 21.13 22 16.99 22 12z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © <span id="year"></span> R&amp;K Mueblería. Todos los derechos reservados.
+            <p>Pedidos por WhatsApp | Entregas locales y mayoreo</p>
+        </div>
+    </footer>
     <script src="assets/js/product-detail.js"></script>
     <script src="assets/js/menu.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

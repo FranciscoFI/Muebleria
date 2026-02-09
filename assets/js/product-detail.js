@@ -52,11 +52,6 @@ fetch('data/products.json')
             if (currentProduct.specs.largo) {
                 specsList.innerHTML += `<li><strong>Largo:</strong> ${currentProduct.specs.largo} cm</li>`;
             }
-        // specsList.innerHTML = `
-        //     <li><strong>Ancho:</strong> ${currentProduct.specs.ancho} cm</li>
-        //     <li><strong>Altura:</strong> ${currentProduct.specs.altura} cm</li>
-        //     <li><strong>Largo:</strong> ${currentProduct.specs.largo} cm</li>
-        // `;
         }
 
 
@@ -81,7 +76,7 @@ fetch('data/products.json')
 
         /* Productos relacionados */
         const related = products.filter(
-            p => p.category === currentProduct.category && p.id !== id
+            p => p.subcategory === currentProduct.subcategory && p.id !== id
         );
 
         relatedGrid.innerHTML = '';
