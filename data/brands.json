@@ -1,0 +1,19 @@
+[
+    {
+        "id": "brand-001",
+        "name": "FORTEX",
+        "images": [
+            "assets/images/brands/fortex.png"
+        ]
+    },
+    {
+        "id": "brand-002",
+        "name": "FLIP",
+        "images": ["assets/images/brands/flipp.png"]
+    },
+    {
+        "id": "brand-003",
+        "name": "ECOL",
+        "images": []
+    }
+]

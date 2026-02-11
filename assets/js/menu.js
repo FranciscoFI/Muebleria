@@ -43,9 +43,22 @@ fetch('data/categories.json')
                     subLink.href = `categorias.html?sub=${sub.id}`;
                     subLink.textContent = sub.name;
 
-                    // tracking
+                    // tracking atributos
                     subLink.dataset.category = cat.id;
                     subLink.dataset.subcategory = sub.id;
+
+                    // TRACKING GTM CLICK CATEGORÍA
+                    subLink.addEventListener('click', () => {
+
+                        window.dataLayer = window.dataLayer || [];
+
+                        window.dataLayer.push({
+                            event: 'category_click',
+                            category: cat.id,
+                            subcategory: sub.id
+                        });
+
+                    });
 
                     li.appendChild(subLink);
                     ul.appendChild(li);
@@ -110,17 +123,16 @@ function activarAcordeonMobile() {
 }
 
 
-
 /* ===============================
    MENÚ HAMBURGUESA
 =============================== */
 
 const toggle = document.getElementById('menu-toggle');
-const menu = document.getElementById('main-menu');
+const mainMenu = document.getElementById('main-menu');
 
-if (toggle && menu) {
+if (toggle && mainMenu) {
     toggle.addEventListener('click', () => {
-        menu.classList.toggle('active');
+        mainMenu.classList.toggle('active');
     });
 }
 
@@ -134,32 +146,22 @@ const searchInput = document.getElementById('menu-search-input');
 if (searchInput) {
     searchInput.addEventListener('keypress', e => {
         if (e.key === 'Enter') {
+
             const value = e.target.value.trim();
+
             if (value.length > 0) {
+
+                // tracking búsqueda
+                window.dataLayer = window.dataLayer || [];
+
+                window.dataLayer.push({
+                    event: 'search',
+                    search_term: value
+                });
+
                 window.location.href =
                     `categorias.html?search=${encodeURIComponent(value)}`;
             }
         }
     });
 }
-
-
-/* ===============================
-   TRACKING GTM
-=============================== */
-
-document.addEventListener('click', function (e) {
-
-    const link = e.target.closest('a[data-category][data-subcategory]');
-    if (!link) return;
-
-    window.dataLayer = window.dataLayer || [];
-
-    window.dataLayer.push({
-        event: 'category_click',
-        category: link.dataset.category,
-        subcategory: link.dataset.subcategory,
-        page_url: window.location.href
-    });
-
-});

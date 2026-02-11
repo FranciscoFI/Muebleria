@@ -110,3 +110,47 @@ fetch('data/products.json')
         createCarousel(newsTrack, prevBtnNews, nextBtnNews);
 
     });
+
+/* ===============================
+   CARGAR MARCAS
+=============================== */
+
+const brandTrack = document.getElementById('brands');
+const prevBrand = document.getElementById('prevBtnBrand');
+const nextBrand = document.getElementById('nextBtnBrand');
+
+fetch('data/brands.json')
+    .then(res => res.json())
+    .then(brands => {
+
+        brands.forEach(b => {
+
+            const div = document.createElement('div');
+            div.className = 'brand';
+
+            // si hay imagen
+            if (b.images && b.images.length > 0) {
+
+                const img = document.createElement('img');
+                img.src = b.images[0];
+                img.alt = b.name;
+
+                div.appendChild(img);
+
+            } else {
+
+                // si no hay imagen → nombre
+                div.textContent = b.name;
+
+            }
+
+            div.onclick = () => {
+                window.location.href = `categorias.html?brand=${b.id}`;
+            };
+
+            brandTrack.appendChild(div);
+        });
+
+        createCarousel(brandTrack, prevBrand, nextBrand);
+
+    });

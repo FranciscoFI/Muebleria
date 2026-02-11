@@ -5,16 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Producto | R&K</title>
-
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/megamenu.css">
     <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NR92CJRN');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR92CJRN" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="site-header">
         <div class="header-container">
             <div class="logo">
@@ -50,7 +64,8 @@
                 <a id="whatsapp-btn" class="btn whatsapp-btn" target="_blank">
                     📲 Preguntar por WhatsApp
                 </a>
-                <p class="badge" >Los precios están sujetos a cambio de acuerdo al volumen de compra (mayoreo o menudeo).</p>
+                <p class="badge">Los precios están sujetos a cambio de acuerdo al volumen de compra (mayoreo o menudeo).
+                </p>
 
             </div>
 
@@ -72,15 +87,12 @@
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </a>
     </section>
-        <footer class="footer">
+    <footer class="footer">
         <div class="footer-container">
 
             <!-- MARCA -->
             <div class="footer-col footer-brand">
                 <img src="assets/images/logo/rk-elefante.png" alt="R&K Logo" class="footer-logo">
-                <div>
-                    <p>Distribuidor de mueblería de plástico para hogar, eventos y negocios.</p>
-                </div>
             </div>
 
             <!-- CONTACTO -->
@@ -102,6 +114,11 @@
             <p>Pedidos por WhatsApp | Entregas locales y mayoreo</p>
         </div>
     </footer>
+
+    <div id="zoomModal" class="zoom-modal">
+        <span class="zoom-close">&times;</span>
+        <img id="zoomImage">
+    </div>
     <script src="assets/js/product-detail.js"></script>
     <script src="assets/js/menu.js"></script>
     <script>

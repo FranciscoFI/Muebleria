@@ -38,7 +38,20 @@
   {
     "id": "toldos",
     "name": "Toldos",
-    "subcategories": []
+    "subcategories": [
+      {
+        "id": "toldos-premium",
+        "name": "Premium"
+      },
+      {
+        "id": "toldos-reforzados",
+        "name": "Reforzados"
+      },
+      {
+        "id": "toldos-automaticos",
+        "name": "Automaticos"
+      }
+    ]
   },
   {
     "id": "tanques",

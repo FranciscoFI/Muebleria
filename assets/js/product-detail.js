@@ -56,7 +56,7 @@ fetch('data/products.json')
 
 
         /* Colores */
-        if (currentProduct.colors) {
+        if (currentProduct.colors && currentProduct.colors.length > 0) {
             colorsWrap.innerHTML = '<p><strong>Colores disponibles:</strong></p>';
 
             currentProduct.colors.forEach(c => {
@@ -95,3 +95,27 @@ fetch('data/products.json')
         });
 
     });
+
+const zoomModal = document.getElementById('zoomModal');
+const zoomImage = document.getElementById('zoomImage');
+const zoomClose = document.querySelector('.zoom-close');
+
+// solo imágenes del PDP
+document.addEventListener('click', e => {
+
+    const img = e.target.closest('.product-detail img');
+    if (!img) return;
+
+    zoomModal.style.display = 'flex';
+    zoomImage.src = img.src;
+
+});
+
+// cerrar con X
+zoomClose.onclick = () => zoomModal.style.display = 'none';
+
+// cerrar tocando fondo
+zoomModal.onclick = e => {
+    if (e.target === zoomModal) zoomModal.style.display = 'none';
+};
+

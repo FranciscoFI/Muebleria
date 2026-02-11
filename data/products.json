@@ -2718,5 +2718,145 @@
         "colors": [],
         "recommended": false,
         "new": false
+    },
+    {
+        "id": "toldo-001",
+        "name": "Toldo 2x2 Reforzado",
+        "category": "toldos",
+        "subcategory": "toldos-reforzados",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-001.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-002",
+        "name": "Toldo 2x2 Automatico",
+        "category": "toldos",
+        "subcategory": "toldos-automaticos",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-002.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-003",
+        "name": "Toldo 2x2 Premium",
+        "category": "toldos",
+        "subcategory": "toldos-premium",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-003.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-004",
+        "name": "Toldo 3x2 Automatico",
+        "category": "toldos",
+        "subcategory": "toldos-automaticos",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-004.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-005",
+        "name": "Toldo 3x3 Reforzado",
+        "category": "toldos",
+        "subcategory": "toldos-reforzados",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-005.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-006",
+        "name": "Toldo 3x3 Automatico",
+        "category": "toldos",
+        "subcategory": "toldos-automaticos",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-006.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-007",
+        "name": "Toldo 3x3 Premium",
+        "category": "toldos",
+        "subcategory": "toldos-premium",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-007.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-008",
+        "name": "Toldo 3x4.5 Reforzado",
+        "category": "toldos",
+        "subcategory": "toldos-reforzados",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-008.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-009",
+        "name": "Toldo 3x4.5 Premium",
+        "category": "toldos",
+        "subcategory": "toldos-premium",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-009.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
+    },
+    {
+        "id": "toldo-010",
+        "name": "Toldo 3x6 Premium",
+        "category": "toldos",
+        "subcategory": "toldos-premium",
+        "description": "",
+        "images": [
+            "assets/images/productos/toldos/toldo-010.jpg"
+        ],
+        "specs": {},
+        "colors": [],
+        "recommended": false,
+        "new": false
     }
 ]
