@@ -246,3 +246,7 @@ body {
   width: 100%;
   object-fit: contain;
 }
+
+main {
+  min-height: 300px;
+}
