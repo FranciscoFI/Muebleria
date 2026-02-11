@@ -24,14 +24,33 @@ let currentProducts = [];
 ================================ */
 if (search) {
   title.textContent = `Resultados para: "${search}"`;
+} else if (cat) {
+  fetch('data/categories.json')
+    .then(res => res.json())
+    .then(categories => {
+      const found = categories.find(c => c.id === cat);
+      if (found) {
+        title.textContent = found.name;
+      }
+    });
 } else if (sub) {
   fetch('data/categories.json')
     .then(res => res.json())
     .then(categories => {
-      const found = categories.find(c => c.id === sub);
-      if (found) {
-        title.textContent = found.name;
+
+      let foundSub = null;
+
+      categories.forEach(c => {
+        const match = c.subcategories?.find(s => s.id === sub);
+        if (match) {
+          foundSub = match;
+        }
+      });
+
+      if (foundSub) {
+        title.textContent = `${foundSub.name}`;
       }
+
     });
 }
 
