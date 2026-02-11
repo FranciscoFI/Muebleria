@@ -72,7 +72,7 @@ fetch('data/products.json')
 
             div.className = 'product';
             div.innerHTML = `
-                <img src="${img}">
+                <img src="${img}" loading="lazy">
                 <div class="product-info">
                     <h3>${p.name}</h3>
                     <p>${p.description}</p>
@@ -91,13 +91,24 @@ fetch('data/products.json')
 
             div.className = 'product';
             div.innerHTML = `
-                <img src="${img}">
+                <img src="${img}" loading="lazy">
                 <div class="product-info">
                     <h3>${p.name}</h3>
                     <p>${p.description}</p>
                 </div>`;
 
-            div.onclick = () => location.href = `producto.html?id=${p.id}`;
+            div.onclick = () => {
+                window.dataLayer = window.dataLayer || [];
+
+                window.dataLayer.push({
+                    event: 'product_click',
+                    product_id: p.id,
+                    product_name: p.name,
+                    category: p.category
+                });
+
+                location.href = `producto.html?id=${p.id}`;
+            };
             newsTrack.appendChild(div);
         });
 

@@ -85,7 +85,7 @@ fetch('data/products.json')
             const img = p.images[0] || 'https://via.placeholder.com/400x300';
             div.className = 'product';
             div.innerHTML = `
-            <img src="${img}">
+            <img src="${img}" loading="lazy">
             <div class="product-info">
                 <h3>${p.name}</h3>
                 <p>${p.description}</p>
