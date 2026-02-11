@@ -50,7 +50,7 @@
 .menu-toggle {
     display: none;
     font-size: 26px;
-    background: none;
+    background: white;
     border: none;
     color: #245a72;
     cursor: pointer;
@@ -76,7 +76,7 @@
         flex-direction: column;
         background: white;
         position: fixed;
-
+        gap: 0;
         top: 60px;
         left: 0;
         width: 100%;
