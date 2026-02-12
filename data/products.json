@@ -1,7 +1,7 @@
 [
     {
         "id": "silla-001",
-        "name": "Silla hipalima",
+        "name": "Sillón Ipanema",
         "category": "sillas",
         "subcategory": "sillas-plasticas",
         "description": "Silla plástica resistente de uso diario, fabricada en material de alta durabilidad. Ideal para hogar, eventos, jardín o negocio. Diseño ligero, fácil de limpiar y apilable para ahorro de espacio.",
@@ -9,7 +9,11 @@
             "assets/images/productos/sillas/mueble-001.jpg"
         ],
         "specs": { },
-        "colors": [],
+        "colors": [
+            {
+                "name": "blanco",
+                "hex": "#fff"
+            }],
         "recommended": true,
         "new": true
     },
